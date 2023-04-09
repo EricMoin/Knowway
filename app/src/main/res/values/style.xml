@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="TransparentTheme" parent="Theme.BottomNavigationViewTest">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/gray_drak</item>
+    </style>
+</resources>

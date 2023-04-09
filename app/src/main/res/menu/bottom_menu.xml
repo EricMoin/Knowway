@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/studyArea"
+        android:icon="@drawable/study_pic_slc"
+        android:title="学习区"
+        />
+    <item
+        android:id="@+id/uploadArea"
+        android:icon="@drawable/upload_pic_slc"
+        android:title="讨论区"
+        />
+    <item
+        android:id="@+id/travelArea"
+        android:icon="@drawable/travel_pic_slc"
+        android:title="旅游区"
+        />
+    <item
+        android:id="@+id/researchArea"
+        android:icon="@drawable/user_pic_slc"
+        android:title="个人中心"/>
+</menu>

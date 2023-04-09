@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_changeTheme"
+            android:icon="@drawable/theme_pic"
+            android:title="更换主题"
+            />
+        <item
+            android:id="@+id/nav_divine"
+            android:icon="@drawable/guide_pic"
+            android:title="小算一卦"
+            />
+        <item
+            android:id="@+id/nav_todayLuck"
+            android:icon="@drawable/sun_pic"
+            android:title="今日运势"
+            />
+        <item
+            android:id="@+id/nav_uploadArticle"
+            android:icon="@drawable/write_article_pic"
+            android:title="上传文章"/>
+    </group>
+</menu>

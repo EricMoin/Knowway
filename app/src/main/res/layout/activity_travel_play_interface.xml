@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/travelPlayInterfaceViewPage2"
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_height="200dp"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/travelPlayInterfaceIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/study_title_pic"
+            app:layout_constraintTop_toBottomOf="@id/travelPlayInterfaceViewPage2"
+            app:layout_constraintBottom_toTopOf="@id/travelPlayInterfaceInfo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/travelPlayInterfaceViewPage2"
+            app:layout_constraintLeft_toRightOf="@id/travelPlayInterfaceIcon"
+            app:layout_constraintBottom_toTopOf="@id/travelPlayInterfaceInfo"
+            android:text="Eric_Moin"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/travelPlayInterfaceInfo"
+            android:text="  关于这个事，我简单说两句，你明白就行，总而言之，这个事呢，现在就是这个情况，具体的呢，大家也都看得到，也得出来说那么几句，可能，你听的不是很明白，但是意思就是那么个意思，不知道的你也不用去猜，这种事情见得多了，我只想说懂得都懂，不懂的我也不多解释，毕竟自己知道就好，细细品吧。你们也别来问我怎么了，利益牵扯太大，说了对你我都没好处，当不知道就行了，其余的我只能说这里面水很深，牵扯到很多东西。详细情况你们自己是很难找的，网上大部分已经删除干净了，所以我只能说懂得都懂。懂的人已经基本都获利上岸什么的了，不懂的人永远不懂，关键懂的人都是自己悟的，你也不知道谁是懂的人也没法请教。"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/travelPlayInterfaceIcon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
