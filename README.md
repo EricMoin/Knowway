@@ -5,4 +5,4 @@
 - 文章编辑上传
 - 评论发送
 - 后续功能还在持续开发中....
-![image](Knowway/Resource/knowway.png)
+![image](https://github.com/Moing12/Knowway/blob/main/Resources/knowway.png)
